@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: gray;
+    color: aliceblue;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:  url("imges/THJJRUhNlEc.png"),linear-gradient(180deg, rgba(2,0,36,0.1) 0%, rgba(0,212,255,0.1) 100%);
+    background-size: cover;
+    padding: 100px 50px 100px 50px;
+    max-width: 800px;
+    height: 20vh;
+    margin: auto;
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 230px;
+    max-width: 600px;
+    box-shadow: black 5px 0 20px;
+}
+
+.search input{
+    margin: 0;
+    font-family:Arial, FontAwesome, sans-serif;
+    padding: 10px 5px 10px 5px;
+    width: 50vw;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search button{
+    border: none;
+    margin: 0;
+    padding: 10px 5px 10px 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 20vw;
+}
+
+.films{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #DFDDDD;
+}
+
+#films{
+    color: black;
+}
+
+.moves{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    width: 85%;
+}
+
+.moves img{
+    height: 70%;
+    padding: 50px;
+    max-width: 550px;
+}
+
+.moves div{
+    max-width: 157px;
+}
+
+.add{
+    display: flex;
+    align-items: center;
+}
+
+.add button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 100%;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+}
+
+#no-film{
+    height: 80vh;
+}
