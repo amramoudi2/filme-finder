@@ -1,10 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>watch list</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <title>move finder</title>
+        <link rel="stylesheet" href="./watch.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>
+            <h1>My Watchlist</h1>
+            <a href="./index.html">Search for movies</a>
+        </header>
 
-</body>
+        <div id="main-display">
+            <div class="films" id="no-film">
+                <h2>Your watchlist is looking a little empty...</h2>
+                <div class="lets">
+                    <img src="./imges/addIcon.png">
+                    <a href="index.html"><strong>let’s add some movies!</strong></a>
+                </div>
+            </div>
+        </div>
+        <div id="films" class="films">
+        </div>
+        <script type="module" src="watch.js"></script>
+    </body>
 </html>
