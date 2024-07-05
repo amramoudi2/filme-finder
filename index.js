@@ -33,7 +33,7 @@ function getSearchValue(){
 }
 
 function getMove(input){
-    fetch(`http://www.omdbapi.com/?s=${input}&apikey=74892d35`)
+    fetch(`https://www.omdbapi.com/?s=${input}&apikey=74892d35`)
         .then(res => res.json())
         .then(data => {
             console.log(data)
