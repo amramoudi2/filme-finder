@@ -8,6 +8,7 @@ body,html{
     font-family: sans-serif;
     background-color: gray;
     color: aliceblue;
+    
 }
 
 header{
@@ -135,6 +136,10 @@ a{
 @media (max-width: 600px) {
     header{
         padding: 100px 20px;
+    }
+
+    body{
+        text-align:center;
     }
 
     .search{
