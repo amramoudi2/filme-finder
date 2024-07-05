@@ -34,7 +34,7 @@ document.addEventListener("click", function (e) {
 function getMovies(movie){
 
     for(let currentMovie of movie){
-        fetch(`http://www.omdbapi.com/?i=${currentMovie}&apikey=74892d35&`)
+        fetch(`https://www.omdbapi.com/?i=${currentMovie}&apikey=74892d35&`)
             .then(res => res.json())
             .then(data => {
                 if (moviesArr.length > 0){
